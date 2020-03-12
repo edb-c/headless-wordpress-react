@@ -164,26 +164,8 @@ class Home extends Component {
     const { page, posts, pages } = this.state;
     return (
       <div>
-        <div className="graphql intro bg-black white ph3 pv4 ph5-m pv5-l flex flex-column flex-row-l">
-          <div className="color-logo w-50-l mr3-l"></div>
-          <div className="subhed pr6-l">
-            <h1>{page.title}</h1>
-            <div className="dek">
-              You are now running a WordPress backend with a React frontend.
-            </div>
-            <div className="api-info b mt4">
-              Starter Kit supports both REST API and GraphQL
-              <div className="api-toggle">
-                <a className="rest" href="http://localhost:3000">
-                  REST API
-                </a>
-                <a className="graphql" href="http://localhost:3001">
-                  GraphQL
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        
         <div className="recent flex mh4 mt4 w-two-thirds-l center-l">
           <div className="w-50 pr3">
             <h2>Posts</h2>

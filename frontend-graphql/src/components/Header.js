@@ -54,15 +54,7 @@ class Header extends Component {
       <div className="menu bb">
         <div className="flex justify-between w-90-l center-l">
           <div className="brand bb flex justify-center items-center w-100 justify-between-l bn-l">
-            <Link
-              to="/"
-              className="starter-kit-logo"
-            >
-              <div className="pl2">
-                WordPress + React<br/>
-                Starter Kit
-              </div>
-            </Link>
+            Eee
           </div>
           <div className="links dn flex-l justify-between items-center">
             {menus.map(menu => {
@@ -89,7 +81,7 @@ class Header extends Component {
             })}
 
             <Link to="/search">
-              <SearchIcon width={25} height={25} />
+              <SearchIcon width={25} height={25}/>
             </Link>
 
             {authToken ? (
@@ -105,8 +97,7 @@ class Header extends Component {
               </a>
             ) : (
               <Link
-                to="/login"
-                className="round-btn ba bw1 pv2 ph3"
+                to="/login"     
               >
                 Log in
               </Link>
